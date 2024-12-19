@@ -31,6 +31,8 @@ def main():
     price = df.loc[:, 'price']
     training_model(km, price)
     plt.scatter(km, price, color='red')
+    plt.xlabel("mileage (in Km)")
+    plt.ylabel("price (in Euro)")
     plt.show()
 
 

@@ -1,4 +1,4 @@
-from bonus.draw import training_model
+from draw import training_model
 import pandas as pd
 import numpy as np
 import math
